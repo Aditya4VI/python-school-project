@@ -1,0 +1,6 @@
+print("Word Counter.")
+sentence=input("Enter your sentence:-  ")
+word_list= list(sentence.split())
+total_word= len(word_list)
+print(f"Your sentence contain {total_word} words.")
+i= input("Press Enter to Exit.")
